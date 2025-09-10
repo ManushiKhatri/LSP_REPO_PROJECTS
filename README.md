@@ -24,7 +24,7 @@ Requirements:
 
 
 ## Project Structure
-
+'''
 data/
 ├── products.csv
 └── transformed_products.csv
@@ -35,6 +35,7 @@ src/
 	└── ETLPipeline.java
 README.md
 .gitignore
+'''
 
 ## External Source Usage Disclosure
 
