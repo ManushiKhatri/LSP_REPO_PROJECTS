@@ -25,23 +25,21 @@ Requirements:
 
 ## Project Structure
 
-- src/
--     └── org/howard/edu/lsp/assignment1/
--         └── HelloWorld.java
--     └── org/howard/edu/lsp/assignment2/
--         └── ETLPipeline.java
--     |
--     .
--     .
-- data/
-- ├── products.csv
-- └── transformed_products.csv
-- README.md
-- .gitignore
+data/
+├── products.csv
+└── transformed_products.csv
+src/
+└── org/howard/edu/lsp/assignment1/
+	└── HelloWorld.java
+└── org/howard/edu/lsp/assignment2/
+	└── ETLPipeline.java
+README.md
+.gitignore
 
 ## External Source Usage Disclosure
 
 **Assignment 1**
+N/A
 
 **Assignment 2**
 1. Link: https://stackoverflow.com/questions/24923179/parse-a-semicolon-separated-file-in-java
