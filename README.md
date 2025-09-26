@@ -15,11 +15,10 @@ This repository contains my coursework for Large Scale Programming.
 	- Transform: ProductTransformer → DefaultProductTransformer
 	- Load: ProductWriter → CsvProductWriter
 	- Orchestration: ETLPipelineMain (runs Extract → Transform → Load and prints the same summary)
-	Also includes short documentation:
-
-	- doc/REFLECTION_A3.md (design choices & testing to prove A3 == A2)
-	- doc/AI_PROMPTS_A3.md (prompts + brief excerpts; academic integrity notes)
-	Package: org.howard.edu.lsp.assignment3.
+	- Also includes short documentation:
+		- doc/REFLECTION_A3.md (design choices & testing to prove A3 == A2)
+		- doc/AI_PROMPTS_A3.md (prompts + brief excerpts; academic integrity notes)
+	- Package: org.howard.edu.lsp.assignment3.
   
 ---
 
