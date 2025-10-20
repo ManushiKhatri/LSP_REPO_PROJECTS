@@ -1,5 +1,7 @@
 package org.howard.edu.lsp.midterm.question4;
 
-public class Networked {
-
+public interface Networked {
+    void connect();
+    void disconnect();
+    boolean isConnected();
 }

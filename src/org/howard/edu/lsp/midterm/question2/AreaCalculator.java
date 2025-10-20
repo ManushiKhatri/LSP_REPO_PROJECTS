@@ -19,7 +19,7 @@ public class AreaCalculator {
         return 0.5 * base * height;
     }
 
-    // Square
+    // Square (side length) area
     public static double area(int side) {
         if (side <= 0) throw new IllegalArgumentException("side must be > 0");
         return side * side;
