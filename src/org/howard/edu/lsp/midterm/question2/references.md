@@ -19,7 +19,7 @@
 - **Purpose:** Used to verify correct method signatures and formatting for overloaded `area()` methods.  
 - **Prompt:** *"How can I implement a Java program with multiple overloaded methods that calculate areas of different shapes while validating for negative or zero dimensions?"*
 - **AI Answer (Excerpt):** 
-'''
+```
 Method overloading means you can define multiple methods with the same name but different parameter lists (different number or type of parameters).
 This makes your code clean and easy to read — for example, one area() method can handle multiple shapes.
 Java Program Example:
@@ -78,7 +78,7 @@ Why This is Good Practice:
 Encapsulation of logic: All area logic lives in one class.
 
 Code readability: Overloading keeps the same intuitive method name (area).
-'''
+```
 
 - **Adaption:** I adapted this structure and added my own exception handling and print formatting in Eclipse.
 

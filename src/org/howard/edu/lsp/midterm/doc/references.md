@@ -20,17 +20,17 @@
 - **Prompt:**  
   *“Explain in simple language how class cohesion and single responsibility principles improve code maintainability, and give an example of refactoring a class that tries to do too much.”*  
 - **AI Answer (Excerpt):** 
-'''
+```
 Class cohesion means that everything inside a class should work together toward one clear purpose. The single responsibility principle (SRP) builds on that idea — each class should have only one job or reason to change. When a class focuses on one thing, the code becomes easier to understand, test, and update without breaking other parts of the program.
 
 How it improves maintainability:
 
-Easier to debug: You know exactly where to look when something goes wrong.
+- Easier to debug: You know exactly where to look when something goes wrong.
 
-Simpler to reuse: Small, focused classes can be used in other parts of the program.
+- Simpler to reuse: Small, focused classes can be used in other parts of the program.
 
-Safer to change: You can modify one class without worrying about unintended side effects in unrelated features.
-'''
+- Safer to change: You can modify one class without worrying about unintended side effects in unrelated features.
+```
 - **Adaptation:** I used this explanation to shape my Q1 discussion of the `StudentPortalHelper` class and Riel’s cohesion heuristic.
 
 ---

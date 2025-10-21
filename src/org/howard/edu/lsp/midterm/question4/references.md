@@ -18,7 +18,7 @@
 - **Purpose:** To double-check that my class hierarchy (`Device`, `DoorLock`, `Thermostat`, `Camera`) and interface implementations (`Networked`, `BatteryPowered`) followed Java’s abstract and interface principles exactly as described in the midterm instructions.  
 - **Prompt:** “How do I design a Java system with an abstract parent class and multiple interfaces where subclasses combine behaviors like networking and battery management?”  
 - **AI Answer (Excerpt):** 
-''' 
+``` 
 Here’s a clean, flexible design that mixes an abstract parent class with multiple small interfaces so concrete classes can “compose” behaviors like networking and battery management.
 
 Design idea (quick map)
@@ -290,7 +290,7 @@ Small interfaces keep responsibilities focused; classes only implement what they
 PortableDevice gives a reusable battery implementation (validation + clamping), so anything portable gets battery rules “for free.”
 
 Easy to extend: Want a Smartphone? Extend PortableDevice, implement WifiCapable + CellularCapable. Want a UPS-powered router? Implement BatteryManaged in Router or subclass it. 
-'''  
+```  
 - **Adaptation:** This helped me verify my design structure before compiling and testing my final code in Eclipse.
 
 ---
