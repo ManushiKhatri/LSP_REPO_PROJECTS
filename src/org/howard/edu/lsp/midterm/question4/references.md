@@ -7,20 +7,19 @@
 ---
 
 ### Primary References
-1. Oracle Java Tutorials – [Abstract Classes and Methods](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)   
-2. Baeldung – [Abstract Class vs Interface](https://www.baeldung.com/java-abstract-class-vs-interface)  
-3. GeeksforGeeks – [Polymorphism in Java](https://www.geeksforgeeks.org/polymorphism-in-java/)  
-4. Java SE API – [IllegalArgumentException](https://docs.oracle.com/javase/8/docs/api/java/lang/IllegalArgumentException.html)
+1. Oracle Java Tutorials – [Abstract Classes and Methods](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)     
+2. GeeksforGeeks – [Polymorphism in Java](https://www.geeksforgeeks.org/polymorphism-in-java/)  
+3. Java SE API – [IllegalArgumentException](https://docs.oracle.com/javase/8/docs/api/java/lang/IllegalArgumentException.html)
 
 ---
 
 ### AI / Internet Source Disclosure
 - **Tool used:** ChatGPT (GPT-5, OpenAI, October 2025)  
 - **Purpose:** To double-check that my class hierarchy (`Device`, `DoorLock`, `Thermostat`, `Camera`) and interface implementations (`Networked`, `BatteryPowered`) followed Java’s abstract and interface principles exactly as described in the midterm instructions.  
-- **Prompt:**  
-  *“How do I design a Java system with an abstract parent class and multiple interfaces where subclasses combine behaviors like networking and battery management?”*  
-- **AI Answer (Excerpt):**  
-  > “Here’s a clean, flexible design that mixes an abstract parent class with multiple small interfaces so concrete classes can “compose” behaviors like networking and battery management.
+- **Prompt:** “How do I design a Java system with an abstract parent class and multiple interfaces where subclasses combine behaviors like networking and battery management?”  
+- **AI Answer (Excerpt):** 
+''' 
+Here’s a clean, flexible design that mixes an abstract parent class with multiple small interfaces so concrete classes can “compose” behaviors like networking and battery management.
 
 Design idea (quick map)
 
@@ -290,7 +289,8 @@ Small interfaces keep responsibilities focused; classes only implement what they
 
 PortableDevice gives a reusable battery implementation (validation + clamping), so anything portable gets battery rules “for free.”
 
-Easy to extend: Want a Smartphone? Extend PortableDevice, implement WifiCapable + CellularCapable. Want a UPS-powered router? Implement BatteryManaged in Router or subclass it.”  
+Easy to extend: Want a Smartphone? Extend PortableDevice, implement WifiCapable + CellularCapable. Want a UPS-powered router? Implement BatteryManaged in Router or subclass it. 
+'''  
 - **Adaptation:** This helped me verify my design structure before compiling and testing my final code in Eclipse.
 
 ---

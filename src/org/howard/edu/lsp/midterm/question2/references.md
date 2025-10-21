@@ -18,7 +18,9 @@
 - **Tool used:** ChatGPT (GPT-5, OpenAI, October 2025)  
 - **Purpose:** Used to verify correct method signatures and formatting for overloaded `area()` methods.  
 - **Prompt:** *"How can I implement a Java program with multiple overloaded methods that calculate areas of different shapes while validating for negative or zero dimensions?"*
-- **AI Answer (Excerpt):** *"Method overloading means you can define multiple methods with the same name but different parameter lists (different number or type of parameters).
+- **AI Answer (Excerpt):** 
+'''
+Method overloading means you can define multiple methods with the same name but different parameter lists (different number or type of parameters).
 This makes your code clean and easy to read — for example, one area() method can handle multiple shapes.
 Java Program Example:
 public class ShapeAreaCalculator {
@@ -56,7 +58,7 @@ public class ShapeAreaCalculator {
         System.out.println("Circle area: " + area(4));
         System.out.println("Triangle area: " + area(6, 2, true));
 
-        // Try invalid inputs
+    // Try invalid inputs
         System.out.println("\nTesting invalid values:");
         System.out.println("Rectangle area: " + area(-5, 3));
         System.out.println("Circle area: " + area(0));
@@ -70,14 +72,15 @@ The area() method is overloaded three times — each version has a different par
 Before calculating, each method checks if the given dimensions are positive.
 
 If invalid values (negative or zero) are passed, an error message is printed and 0 is returned.
-"*
-- **Adaption:** I adapted this structure and added my own exception handling and print formatting in Eclipse.
 
 Why This is Good Practice:
 
 Encapsulation of logic: All area logic lives in one class.
 
 Code readability: Overloading keeps the same intuitive method name (area).
+'''
+
+- **Adaption:** I adapted this structure and added my own exception handling and print formatting in Eclipse.
 
 Validation ensures your program avoids incorrect results and unexpected crashes.
 ---
