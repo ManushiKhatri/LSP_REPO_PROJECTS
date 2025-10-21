@@ -15,8 +15,8 @@
 ---
 
 ### AI / Internet Source Disclosure
-- **Tool used:** ChatGPT (GPT-5, OpenAI, October 2025)  
-- **Prompt 1:**  
+- ***Tool used:*** ChatGPT (GPT-5, OpenAI, October 2025)  
+- ***Prompt 1:***  
   *“Explain in simple language how class cohesion and single responsibility principles improve code maintainability, and give an example of refactoring a class that tries to do too much.”* 
 - **Purpose:** To clarify conceptual reasoning about cohesion, abstraction, and composition while preparing short, well-structured essay answers.  
 - **AI Answer (Excerpt):** 
@@ -33,7 +33,7 @@ How it improves maintainability:
 ```
 - **Adaptation:** I used this explanation to shape my Q1 discussion of the `StudentPortalHelper` class and Riel’s cohesion heuristic.
 
-- **Prompt 2:** "Which is better practice in Java — method overloading or creating multiple methods with different names (like rectangleArea, circleArea, etc.)?" 
+- ***Prompt 2:*** "Which is better practice in Java — method overloading or creating multiple methods with different names (like rectangleArea, circleArea, etc.)?" 
 - **Purpose:** To understand when method overloading provides cleaner and more consistent code design compared to defining multiple functions with different names.  
 - **AI Answer (Excerpt):**
 ```
@@ -110,7 +110,7 @@ because each method represents the same conceptual action — computing area —
 - **Adaptation:** I summarized this reasoning as a short explanatory comment in my `Main` class, stating that overloading provides clarity and consistency while reducing redundant method names.
 
 
-- **Prompt 3:** "Why can’t a subclass-based trim system change trim levels at runtime, and how can composition solve that?"  
+- ***Prompt 3:*** "Why can’t a subclass-based trim system change trim levels at runtime, and how can composition solve that?"  
 - **Purpose:** To confirm my understanding of inheritance vs. composition and how composition can make an object’s state or behavior dynamically changeable in Java.
 - **AI Answer (Excerpt):**
 ```
@@ -206,7 +206,7 @@ This keeps the stable identity and state of the car while swapping behavioral mo
 ```
 - **Adaptation:** I applied this explanation in my essay answer to show how replacing inheritance with composition allows runtime flexibility and cleaner code design.
 
-- **Prompt 4:** "How do abstract classes and interfaces work together in the Smart-Campus Device design, and why is this approach not true multiple inheritance?"  
+- ***Prompt 4:*** "How do abstract classes and interfaces work together in the Smart-Campus Device design, and why is this approach not true multiple inheritance?"  
 - **Purpose:** To ensure that my understanding of abstraction, polymorphism, and Java’s interface system correctly supports the reasoning in my design explanation.
 - **AI Answer (Excerpt):**
 ```
